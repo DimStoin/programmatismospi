@@ -1,0 +1,80 @@
+body{
+ background:url("backround.jpg") center no-repeat;
+ height:115vh;
+ background-size:cover;
+ 
+ font-family:verdana;
+ font-size:15px;
+ margin:0;
+ line-height:1px; 
+
+}
+.navbar
+{
+ text-allign:center;
+ width:100%;
+ background:gray;
+ opacity:0.5;
+}
+.navbar ul{
+ margin:0;
+ padding:0;
+ list-style:none;
+ position:relative;
+}
+.navbar ul li a{
+ display:block;
+ padding:25px;
+ Color:white;
+ text-decoration:none;
+ width:200px;
+}
+.navbar ul:after
+{
+ content:"";clear:both;
+ display:block;
+}
+.navbar ul li{
+ float:left;
+ listy-style:none;
+}
+.navbar ul ul{
+ display:none;
+}
+.navbar ul li:hover> ul
+{
+ display:block;
+}
+.navbar ul li:hover {
+ background:black;
+ transition:0.9s;
+ 
+}
+.navbar ul li:hover a{
+ Color:white;
+ 
+}
+.navbar ul ul
+{
+ background:black;
+ padding:2;
+ margin:1;
+ position:absolute;top:100%;
+ 
+}
+.navbar ul ul li{
+ float:none;
+ position:relative;
+  
+}
+.navbar ul ul li a{
+ padding:25px;
+ Color:white;
+ width:300px;
+ text-allign:left;
+}
+.navbar ul ul li a:hover{
+ background:lightblue;
+ Color:black;
+ transition:0.9s; 
+}
